@@ -1,0 +1,14 @@
+body {background:#777}
+body, div {position:relative}
+video {position:absolute;left:20px;top:0;border:1px solid #000;padding:0}
+canvas {position:absolute;left:20px;top:0;padding:0}
+span {position:absolute;left:20px;top:200px;padding:0}
+
+.disable-doubletap-to-zoom {
+    touch-action: none;
+}
+
+* {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
